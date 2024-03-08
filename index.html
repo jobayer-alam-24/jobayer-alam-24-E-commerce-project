@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce project/home</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="hero">
+        <div class="navigation-bar">
+            <div class="w-90">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="regis.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="log-out.html">Logout</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="my-profile.html"><img class="round-img" src="images/my.jpg" alt="mypic" width="60" height="60"></a>
+            </div>
+        </div>
+        <div class="head-desc">
+            <h1>Bangomart</h1>
+            <p class="head-para"><i class="fa-solid fa-cart-shopping"></i>Cart 2 Products - <span class="amo">$124.40</span></p>
+        </div>
+    </header>
+    <h1 class="dis-head"><marquee>50% Discounts going on!!</marquee></h1>
+    <section class="section-1">
+            <div class="card-container">
+                <div class="card-head">
+                    <i class="font fa-solid fa-truck-fast"></i>
+                    <h3>Shipping within 7 days</h3>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card-head">
+                    <i class="font fa-solid fa-phone"></i>
+                    <h3>Support 24/7</h3>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card-head">
+                    <i class="font fa-regular fa-credit-card"></i>
+                    <h3>Safe payment</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-2">
+        <aside class="sec-aside">
+            <div class="as-1">
+            <h2>Categories</h2>
+            <p><input type="checkbox"> Telephones</p>
+            <p><input type="checkbox"> Tablets</p>
+            <p><input type="checkbox"> Computeres</p>
+            <p><input type="checkbox"> Smartphones</p>
+            <p><input type="checkbox"> Televisions</p>
+            <p><input type="checkbox"> Routers</p>
+            </div>
+            <div class="as-2">
+                <h2>Price Range</h2>
+                <p><input type="radio" name="pr"> $0-$20</p>
+                <p><input type="radio" name="pr"> $21-$50</p>
+                <p><input type="radio" name="pr"> $51-$80</p>
+                <p><input type="radio" name="pr"> $81-$101</p>
+                <p><input type="radio" name="pr"> $101+</p>
+            </div>
+            <div class="as-3">
+                <h2>Shipping Options</h2>
+                <p><input type="radio"  name="Shipping"> Free Shipping</p>
+                <p><input type="radio" name="Shipping"> Paid Shipping</p>
+            </div>
+        </aside>
+        <article>
+            <div class="sec-article">
+                <div class="article-top">
+                   <form action="#" method="get" enctype="multipart/form-data">
+                    <select name="sorting" id="sort" class="sorting">
+                    <option value="sort by:" selected>Sort by: </option>
+                    <option value="Watch">Watch</option>
+                    <option value="Clock">Clock</option>
+                    <option value="Books">Books</option>
+                    </select>
+                   </form>
+                <div class="search">
+                    <input type="text" class="c" placeholder="search here.."><i class="search-icon fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            </div>
+            <div class="card-out-con-for-list">
+                <div class="card-con-list">
+                    <div class="card-head">
+                        <img src="images/fitness.jpg" alt="fitness-tracker" class="w-100 filter">
+                    </div>
+                    <div class="card-body">
+                        <h2>Sony Headphone</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, odio. <a href="#">learn more...</a></p>
+                        <p><b>$225.99</b></p>
+                        <p>Rating 4.4/5</p>
+                    </div>
+                    <div class="card-foot">
+                        <button type="button">Add to cart</button>
+                    </div>
+                </div>
+                <div class="card-con-list">
+                    <div class="card-head">
+                        <img src="images/smart-watch.jpg" alt="smart-watch" class="w-100 filter">
+                    </div>
+                    <div class="card-body">
+                        <h2>Sony Headphone</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, odio. <a href="#">learn more...</a></p>
+                        <p><b>$225.99</b></p>
+                        <p>Rating 4.4/5</p>
+                    </div>
+                    <div class="card-foot">
+                        <button type="button">Add to cart</button>
+                    </div>
+                </div>
+                <div class="card-con-list">
+                    <div class="card-head">
+                        <img src="images/macbook.jpg" alt="macbook" class="w-100 filter">
+                    </div>
+                    <div class="card-body">
+                        <h2>Sony Headphone</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, odio. <a href="#">learn more...</a></p>
+                        <p><b>$225.99</b></p>
+                        <p>Rating 4.4/5</p>
+                    </div>
+                    <div class="card-foot">
+                        <button type="button">Add to cart</button>
+                    </div>
+                </div>
+                <div class="card-con-list">
+                    <div class="card-head">
+                        <img src="images/laptop.jpg" alt="laptop" class="w-100 filter">
+                    </div>
+                    <div class="card-body">
+                        <h2>Sony Headphone</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, odio. <a href="#">learn more...</a></p>
+                        <p><b>$225.99</b></p>
+                        <p>Rating 4.4/5</p>
+                    </div>
+                    <div class="card-foot">
+                        <button type="button">Add to cart</button>
+                    </div>
+                </div>
+                <div class="card-con-list">
+                    <div class="card-head">
+                        <img src="images/head-phone.jpg" alt="Headphone" class="w-100 filter">
+                    </div>
+                    <div class="card-body">
+                        <h2>Sony Headphone</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, odio. <a href="#">learn more...</a></p>
+                        <p><b>$225.99</b></p>
+                        <p>Rating 4.4/5</p>
+                    </div>
+                    <div class="card-foot">
+                        <button type="button">Add to cart</button>
+                    </div>
+                </div>
+                <div class="card-con-list">
+                    <div class="card-head">
+                        <img src="images/iphone.jpg" alt="iphone" class="w-100 filter">
+                    </div>
+                    <div class="card-body">
+                        <h2>Sony Headphone</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, odio. <a href="#">learn more...</a></p>
+                        <p><b>$225.99</b></p>
+                        <p>Rating 4.4/5</p>
+                    </div>
+                    <div class="card-foot">
+                        <button type="button">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <button type="button" class="btn"><</button>
+                <button type="button" class="btn">2</button>
+                <button type="button" class="btn">3</button>
+                <button type="button" class="btn">4</button>
+                <button type="button" class="btn">5</button>
+                <button type="button" class="btn">6</button>
+                <button type="button" class="btn">....</button>
+                <button type="button" class="btn">60</button>
+                <button type="button" class="btn">></button>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div class="left-foot">
+            <P>Subscribe for new updates: <input class="mail" type="email" placeholder="Your: Email address"><button type="button" class="mail">Subscribe</P>
+        </div>
+        <div class="right-foot">
+            <p>&copy; Copyright 2024. all rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
